@@ -5,6 +5,7 @@ import Navbar from "./templateSample/Navbar";
 import Header from './templateSample/Header'
 import PageContent from "./templateSample/PageContent";
 import Footer from "./templateSample/Footer";
+import StateSample from "./StateSample";
 
 function App() {
 
@@ -12,10 +13,11 @@ function App() {
 
   return (
     <>
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar>
       <Header></Header>
       <PageContent></PageContent>
-      <Footer></Footer>
+      <Footer></Footer> */}
+      <StateSample></StateSample>
     </>
 
   );
